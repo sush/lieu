@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    lieu (1.0)
+    lieu (1.0.1)
 
 GEM
   remote: https://rubygems.org/
