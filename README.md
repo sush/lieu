@@ -6,7 +6,7 @@ Simple Ruby wrapper for the [Google Places API](https://developers.google.com/pl
 
 **Current version**: [![Gem Version](https://badge.fury.io/rb/lieu.png)](http://badge.fury.io/rb/lieu)
 
-**Build status**: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![Build Status](https://secure.travis-ci.org/Sush/lieu.png?branch=master)](http://travis-ci.org/sush/lieu)
+**Build status**: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![Build Status](https://secure.travis-ci.org/Sush/lieu.png?branch=master)](http://travis-ci.org/Sush/lieu)
 
 **Code metrics**:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![Code Climate](https://codeclimate.com/github/Sush/lieu.png)](https://codeclimate.com/github/Sush/lieu)
