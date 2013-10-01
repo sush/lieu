@@ -1,6 +1,6 @@
 shared_examples 'an error' do |error|
   error_class_name = error.split(/_/).map{ |word| word.capitalize }.join('')
-  exception = Object.const_get("Lieu::#{error_class_name}")
+  exception = Lieu.const_get(error_class_name)
 
   it "raising #{exception.name} when status is #{error}" do
     VCR.turn_off!
