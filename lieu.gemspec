@@ -17,7 +17,7 @@ Gem::Specification.new do |gem|
 
   gem.required_ruby_version = '>= 1.9.2'
 
-  gem.files = %w[LICENSE README.md CONTRIBUTING.md Rakefile lieu.gemspec]
+  gem.files = %w[.yardopts LICENSE README.md CONTRIBUTING.md Rakefile lieu.gemspec]
   gem.files += Dir.glob('{spec,lib}/**/*.rb')
   gem.require_paths = ['lib']
   gem.test_files = Dir.glob('spec/**/*')
