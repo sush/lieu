@@ -26,7 +26,7 @@ Install via Rubygems
 
 or add to your Gemfile
 
-    gem 'lieu', '~> 1.0'
+    gem 'lieu'
 
 ### Configuration
 
@@ -102,11 +102,11 @@ Lieu follows the principles of [semantic versioning](http://semver.org).
 
 Pull Requests are welcome !
 
-Please refer to the [Contributing guide](https://github.com/sush/lieu/master/CONTRIBUTING.md) for more details on how to run the test suite and to contribute.
+Please refer to the [Contributing guide](https://github.com/sush/lieu/blob/master/CONTRIBUTING.md) for more details on how to run the test suite and to contribute.
 
 
 ## Copyright
 
 Copyright © 2013 Aylic Petit
 
-Released under the terms of the MIT licence. See the [LICENSE](https://github.com/sush/lieu/master/LICENSE) file for more details.
+Released under the terms of the MIT licence. See the [LICENSE](https://github.com/sush/lieu/blob/master/LICENSE) file for more details.
