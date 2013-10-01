@@ -1,0 +1,111 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/place/photo?key=<API_KEY>&maxheight=10&photoreference=CnRtAAAAqCdOEgCrPQY3kaulN3Ywx0CMfg_W97Vfyp5M2tr_qd9HRcodoKvZZhsT_glcV_xJQDM7br-tI2eb9u1cqkyNYEiMvkVLbky4FvheFSvfoqHUDnnJhjzPMxQfFf3GDGnbBmh6aDlgSOdd2LNHCm5SNBIQBT5s3kRxjhR0oAnzhINbcxoUyvD_Ce1R79aAormNMM5LhcwFU5w&sensor=false
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 302
+      message: Found
+    headers:
+      Date:
+      - Wed, 25 Sep 2013 16:11:01 GMT
+      Pragma:
+      - no-cache
+      Expires:
+      - Fri, 01 Jan 1990 00:00:00 GMT
+      Cache-Control:
+      - no-cache, must-revalidate
+      Location:
+      - https://lh4.googleusercontent.com/-1wzlVdxiW14/USSFZnhNqxI/AAAAAAAABGw/YpdANqaoGh4/s1600-h10/Google%2BSydney
+      Access-Control-Allow-Origin:
+      - '*'
+      Content-Type:
+      - text/html; charset=UTF-8
+      Server:
+      - mafe
+      Content-Length:
+      - '305'
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - SAMEORIGIN
+      Alternate-Protocol:
+      - 443:quic
+    body:
+      encoding: UTF-8
+      string: "<HTML><HEAD><meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<TITLE>302
+        Moved</TITLE></HEAD><BODY>\n<H1>302 Moved</H1>\nThe document has moved\n<A
+        HREF=\"https://lh4.googleusercontent.com/-1wzlVdxiW14/USSFZnhNqxI/AAAAAAAABGw/YpdANqaoGh4/s1600-h10/Google%2BSydney\">here</A>.\r\n</BODY></HTML>\r\n"
+    http_version:
+  recorded_at: Wed, 25 Sep 2013 16:11:01 GMT
+- request:
+    method: get
+    uri: https://lh4.googleusercontent.com/-1wzlVdxiW14/USSFZnhNqxI/AAAAAAAABGw/YpdANqaoGh4/s1600-h10/Google+Sydney
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - '*'
+      Etag:
+      - '"v46c"'
+      Expires:
+      - Thu, 26 Sep 2013 14:59:51 GMT
+      Content-Disposition:
+      - inline;filename="Google Sydney.jpg"
+      Content-Type:
+      - image/jpeg
+      X-Content-Type-Options:
+      - nosniff
+      Date:
+      - Wed, 25 Sep 2013 16:11:02 GMT
+      Server:
+      - fife
+      Content-Length:
+      - '437'
+      X-Xss-Protection:
+      - 1; mode=block
+      Cache-Control:
+      - public, max-age=86400, no-transform
+      Age:
+      - '0'
+      Alternate-Protocol:
+      - 443:quic
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        /9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAMCAgECAgMDAwMBAwMEBQgFBQQE
+        BQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRQB
+        AwQEBQQFCQUFCRQNCw0UFBQUFBQUFBQUFA4UFBQUFBQUFBQUDBQUFBQUFBQU
+        FBQUFBQUFBQUFBQUFBQUFBQOFP/AABEIAAoADQMBIgACEQEDEQH/xAAWAAEB
+        AQAAAAAAAAAAAAAAAAAHCAb/xAAjEAACAQMEAQUAAAAAAAAAAAABAgQDBhEF
+        BxIhIgAJJEFh/8QAFQEBAQAAAAAAAAAAAAAAAAAABAP/xAAcEQACAQUBAAAA
+        AAAAAAAAAAABAgMAERMhQQT/2gAMAwEAAhEDEQA/AB2dZXtLTJiVDI3+qxKd
+        R3eWAlLlS4UXDcTR66Zh+nljOBmb91ra2bk3EsqxdO3RkaLUQr8mmWcOGPfi
+        vWVK+LAEYyQCcDeXRc+5Ol3XrcaHq18RI6SyFpUJLoijA6ABx6MdxdZu6tc7
+        PUnXG7tGolmaqxJPH779Ah84iQOpOx01GNcb2bdq/9k=
+    http_version:
+  recorded_at: Wed, 25 Sep 2013 16:11:02 GMT
+recorded_with: VCR 2.5.0

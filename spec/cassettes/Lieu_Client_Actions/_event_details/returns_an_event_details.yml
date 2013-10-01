@@ -1,0 +1,54 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/place/event/details/json?event_id=9lJ_jK1GfhX&key=<API_KEY>&reference=CnRsAAAAN3fYg_9lNkVp8iMRtJH1DBqiSKyspK_Mr-qkChsBTEstw7-me8ChcVvLAbG4OQMVbm9AF_m4Z2d5QTtLqh1DDzGufk6KIfBy4PwJU6xrhuEFl6FmP1R2mq6a68TfDvaNoW9n9mZoLmq8n34MzpDE8hIQq9GAts0wAgDyDLn2CQMiMBoU8ASrZmLF0AkJL4ESExeF2pqj_Oo&sensor=false
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Thu, 26 Sep 2013 09:42:57 GMT
+      Expires:
+      - Thu, 26 Sep 2013 09:47:57 GMT
+      Cache-Control:
+      - public, max-age=300
+      Server:
+      - mafe
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - SAMEORIGIN
+      Alternate-Protocol:
+      - 443:quic
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: |
+        {
+          "result" : {
+            "duration" : 172800,
+            "event_id" : "9lJ_jK1GfhX",
+            "start_time" : 1293840000,
+            "summary" : "Rock n Roll Dreams: The band fully electric in my kitchen and drinking all my beer.",
+            "url" : "http://www.example.com/event_details/10476.html"
+          },
+          "status" : "OK"
+        }
+    http_version:
+  recorded_at: Thu, 26 Sep 2013 09:42:57 GMT
+recorded_with: VCR 2.5.0

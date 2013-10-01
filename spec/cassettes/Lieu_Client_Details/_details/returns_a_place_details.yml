@@ -1,0 +1,220 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/place/details/json?key=<API_KEY>&reference=CmRYAAAAciqGsTRX1mXRvuXSH2ErwW-jCINE1aLiwP64MCWDN5vkXvXoQGPKldMfmdGyqWSpm7BEYCgDm-iv7Kc2PF7QA7brMAwBbAcqMr5i1f4PwTpaovIZjysCEZTry8Ez30wpEhCNCXpynextCld2EBsDkRKsGhSLayuRyFsex6JA6NPh9dyupoTH3g&sensor=false
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Wed, 25 Sep 2013 16:28:34 GMT
+      Expires:
+      - Wed, 25 Sep 2013 16:33:34 GMT
+      Cache-Control:
+      - public, max-age=300
+      Vary:
+      - Accept-Language
+      Server:
+      - mafe
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - SAMEORIGIN
+      Alternate-Protocol:
+      - 443:quic
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "debug_info" : [],
+           "html_attributions" : [],
+           "result" : {
+              "address_components" : [
+                 {
+                    "long_name" : "48",
+                    "short_name" : "48",
+                    "types" : [ "street_number" ]
+                 },
+                 {
+                    "long_name" : "Pirrama Road",
+                    "short_name" : "Pirrama Road",
+                    "types" : [ "route" ]
+                 },
+                 {
+                    "long_name" : "Pyrmont",
+                    "short_name" : "Pyrmont",
+                    "types" : [ "locality", "political" ]
+                 },
+                 {
+                    "long_name" : "NSW",
+                    "short_name" : "NSW",
+                    "types" : [ "administrative_area_level_1", "political" ]
+                 },
+                 {
+                    "long_name" : "AU",
+                    "short_name" : "AU",
+                    "types" : [ "country", "political" ]
+                 },
+                 {
+                    "long_name" : "2009",
+                    "short_name" : "2009",
+                    "types" : [ "postal_code" ]
+                 }
+              ],
+              "formatted_address" : "5/48 Pirrama Road, Pyrmont NSW, Australia",
+              "formatted_phone_number" : "(02) 9374 4000",
+              "geometry" : {
+                 "location" : {
+                    "lat" : -33.866933,
+                    "lng" : 151.195791
+                 }
+              },
+              "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+              "id" : "4f89212bf76dde31f092cfc14d7506555d85b5c7",
+              "international_phone_number" : "+61 2 9374 4000",
+              "name" : "Google Sydney",
+              "photos" : [
+                 {
+                    "height" : 486,
+                    "html_attributions" : [
+                       "\u003ca href=\"https://plus.google.com/105850346606847400426\"\u003eBrandon Grimshaw\u003c/a\u003e"
+                    ],
+                    "photo_reference" : "CnRtAAAA1rIq9w09t6CQfFcXIQ-G3yPY3_Shys6yWac8MSNdYKxL8yVazJZBVFAZnM4v1Hwd8Us5QOk0Tol-l36RGRkrRTtmCOqr6k6jQtm58cJmRcaBXzbTo39T4Tx0kp2KE19azn-ae_TD3j0gtNTSSLb5NxIQFYNrribJgpcrJb_HTKuPaRoU641pc6PZCHpZeXZ4DnDpDL6NOEQ",
+                    "width" : 648
+                 },
+                 {
+                    "height" : 480,
+                    "html_attributions" : [
+                       "\u003ca href=\"https://plus.google.com/111157746837259488919\"\u003eTim Lacey\u003c/a\u003e"
+                    ],
+                    "photo_reference" : "CnRtAAAAzN0Iv7CkhTJYRGWivcA9U3LChynRTFh-sEjID6tfgqm3gaGdAI0p3X-ROFsnyWAS75hOM8rdgzLGNNayz3tn1doTVCpXWvunsA2MC4wCCEEfYHIlOiAsXJwyg507yRhZ9jtGRB9XjmsQcOF6OjsjXBIQMb6b_WR4Y4U_6M9Lq-n5cRoUNZoijRykexZ-Z27XORdHiFf0SMw",
+                    "width" : 640
+                 },
+                 {
+                    "height" : 1536,
+                    "html_attributions" : [],
+                    "photo_reference" : "CoQBdQAAAP-TFlTZqpBlSUfeWLBWR8wan6O33I1Pj1lMPQ6RToZ3Or6PNO8UotqjQDw2TGM54ChZHP0PHUU2rhNUe89E1bXqvdbjSYSDrZeViXH6mv87-3uUTPR-H8pHUxefVeN-4PHEvm2aeEBx_f6Wv3RnrIFG2lyAT-t5G1rUHUpNOjWKEhCV9SiNJf6ugX_kz-ykbN3_GhRuySdTMrwJe6eIQXr-WSmP0AOoIg",
+                    "width" : 2048
+                 },
+                 {
+                    "height" : 1224,
+                    "html_attributions" : [
+                       "\u003ca href=\"https://plus.google.com/102793072679802771755\"\u003eKeith Denny\u003c/a\u003e"
+                    ],
+                    "photo_reference" : "CnRoAAAA7Vr7hpTZwCkMzmCdqG23VP3Ydel7K25zi9C6NRSgfDKlKgYcMGFTnKOiw5Zkb4oXFc53C2BOwxPQClS4nrHMYGrynXOKJGPvuw8aY6TB2qvWJhnxK_xt6tl0THnwdk4JCUORWQmLJ0yXVbDmHZZXYhIQhCwJKfe_hVYjumhcvRfWGhoUqG6uSFZs_62UT89WEVlD4snDtao",
+                    "width" : 1632
+                 },
+                 {
+                    "height" : 480,
+                    "html_attributions" : [ "From a Google User" ],
+                    "photo_reference" : "CnRqAAAA3HU4KMtWlB-mCckNQ1I1NJoNrU-QZLtwxnBB6TSsxTCT0S1mDr_lAyUCmTlt-CoLr2iVUhuxSXXl-Q__PsvooFiEOMPl2LUt_V7fpzedE2PJf1zWPeqbTftSa1xoPs-9bSJn_1ioFwuzjqMB4YTvyRIQQCXmexoBDXi5WlxxH-hRLhoUe3YUMvQlkNbBHUwNuarPIf7kTuM",
+                    "width" : 640
+                 },
+                 {
+                    "height" : 480,
+                    "html_attributions" : [
+                       "\u003ca href=\"https://plus.google.com/107431378819434358066\"\u003eDean Michael Berris\u003c/a\u003e"
+                    ],
+                    "photo_reference" : "CnRtAAAAbcq2bMYcjF-mdfy3RZAVKhOi20fAeTb3lTB2rhfMjwyhhmA_90VUZJUO-jH7mT3VJS8pNWLJZcMyju6G-UlXRBmGGpdvCecaEfSuOlTGH8tdXqP4TSe2Puj54wQGe1RkRBCAH2dCI61ESX4ZJeGAthIQRiwP_kJxo6v0hhgQhNhZPhoUrIEfQp36j93sD0tm_XQHE1RI2zs",
+                    "width" : 640
+                 }
+              ],
+              "rating" : 4.4,
+              "reference" : "CnRsAAAAN3fYg_9lNkVp8iMRtJH1DBqiSKyspK_Mr-qkChsBTEstw7-me8ChcVvLAbG4OQMVbm9AF_m4Z2d5QTtLqh1DDzGufk6KIfBy4PwJU6xrhuEFl6FmP1R2mq6a68TfDvaNoW9n9mZoLmq8n34MzpDE8hIQq9GAts0wAgDyDLn2CQMiMBoU8ASrZmLF0AkJL4ESExeF2pqj_Oo",
+              "reviews" : [
+                 {
+                    "aspects" : [
+                       {
+                          "rating" : 3,
+                          "type" : "quality"
+                       }
+                    ],
+                    "author_name" : "Cindy Huang",
+                    "author_url" : "https://plus.google.com/107550491878142658504",
+                    "text" : "There are few workplaces more desirable to work in than Google. The facilities are incredible, and reflect the company&#39;s dedication to innovation, inspiration and improvement. The interior design is fun, flexible and definitely the ideal platform for employers and employees alike to foster the great ideas of tomorrow. Should the opportunity arise, I would definitely recommend everyone to seize the chance to experience Google (and get a tour through those amazing and incredibly thoughtful micro kitchens).",
+                    "time" : 1361360490
+                 },
+                 {
+                    "aspects" : [
+                       {
+                          "rating" : 3,
+                          "type" : "quality"
+                       }
+                    ],
+                    "author_name" : "Albert Mai",
+                    "author_url" : "https://plus.google.com/106558367962383756670",
+                    "text" : "All Googlers are so nice and friendly. They will always answer your questions, open to questions and willing to help you with their best. The office locates at a very strategic place - in CBD and has wonderful view over the harbor. Really enjoy having lunch outside to enjoy the wind and fresh air for inspiration (but watch out for flying dishes because of strong wind). However, food is kinda lack of the variety comparing to other offices. The plus is food station is almost everywhere which feed you very well (be careful of gaining so much weight). There will usually be surprise when you work here: Ice Cream, Nexus 7, Chrome notebook, Nexus and many other swags. There are a lot of trees inside the building which I really like it - so fresh !",
+                    "time" : 1358249804
+                 },
+                 {
+                    "aspects" : [
+                       {
+                          "rating" : 3,
+                          "type" : "quality"
+                       }
+                    ],
+                    "author_name" : "David Webb",
+                    "author_url" : "https://plus.google.com/115578224090485355580",
+                    "text" : "Awesome company! Great culture and food. A fantastic office indeed. Definitely deserves the title &quot;Best place to work&quot;.",
+                    "time" : 1358233693
+                 },
+                 {
+                    "aspects" : [
+                       {
+                          "rating" : 3,
+                          "type" : "quality"
+                       }
+                    ],
+                    "author_name" : "Jared Winter",
+                    "author_url" : "https://plus.google.com/103549082258031873774",
+                    "text" : "A brilliant atmosphere and welcoming people a great place to visit or work. Definitely take a look at their unique reception with the tyre swing and fernery.",
+                    "time" : 1361349311
+                 },
+                 {
+                    "aspects" : [
+                       {
+                          "rating" : 0,
+                          "type" : "quality"
+                       }
+                    ],
+                    "author_name" : "Vanessa Wiseman",
+                    "author_url" : "https://plus.google.com/118187699378922275112",
+                    "text" : "Google advertising is EVIL! It is not a fair forum and Google wont help. They never help. Good luck speaking with a real human. Competitors can post any nasty unture statements they like to ruin your business. Google doesnt care. Google + Sux. I wish i had never heard of it. Woopdi they have given themselves great pay and a great office and free food. I hope you choke on it. Stop patting your self on the back and try listening to small business and actually doing some work instead of having meetings and discussing how good you think you all are. PS. Lets see if you keep this review, or delete it. BECAUSE ITS TRUE!!!!!!",
+                    "time" : 1346283496
+                 }
+              ],
+              "types" : [ "establishment" ],
+              "url" : "https://plus.google.com/111840715355681175070/about?hl=en-US",
+              "utc_offset" : 600,
+              "vicinity" : "5/48 Pirrama Road, Pyrmont",
+              "website" : "http://www.google.com/about/jobs/locations/sydney/",
+              "events" : [
+                {
+                  "event_id" : "9lJ_jK1GfhX",
+                  "start_time" : 1293865200,
+                  "summary" : "<p>A visit from author John Doe, who will read from his latest book.</p>",
+                  "url" : "http://www.example.com/john_doe_visit.html"
+                }
+              ]
+            },
+           "status" : "OK"
+        }
+    http_version:
+  recorded_at: Wed, 25 Sep 2013 16:28:34 GMT
+recorded_with: VCR 2.5.0

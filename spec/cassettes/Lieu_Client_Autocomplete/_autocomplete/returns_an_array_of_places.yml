@@ -1,0 +1,203 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/place/autocomplete/json?input=Google%20Sydney&key=<API_KEY>&sensor=false
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Wed, 25 Sep 2013 13:22:27 GMT
+      Expires:
+      - Wed, 25 Sep 2013 13:27:27 GMT
+      Cache-Control:
+      - public, max-age=300
+      Vary:
+      - Accept-Language
+      Server:
+      - mafe
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - SAMEORIGIN
+      Alternate-Protocol:
+      - 443:quic
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "predictions" : [
+              {
+                 "description" : "Google Sydney, Pirrama Road, Sydney, New South Wales, Australia",
+                 "id" : "4f89212bf76dde31f092cfc14d7506555d85b5c7",
+                 "matched_substrings" : [
+                    {
+                       "length" : 6,
+                       "offset" : 0
+                    },
+                    {
+                       "length" : 6,
+                       "offset" : 29
+                    }
+                 ],
+                 "reference" : "ClROAAAAqMaLM46d15V4PLE_YSp1o0vTZmO7hkiSobhCcV_KANk3o4MqzxC41QHaTciEPuLdbv-CHx8g9xz1gunS-NLworOhO4oHKTwYTVRKFixQ5P0SEIdMyEn40mUnoCDm30XVMqsaFL75JcXqw9NRUxyizYSzMA1jx0Gf",
+                 "terms" : [
+                    {
+                       "offset" : 0,
+                       "value" : "Google Sydney"
+                    },
+                    {
+                       "offset" : 15,
+                       "value" : "Pirrama Road"
+                    },
+                    {
+                       "offset" : 29,
+                       "value" : "Sydney"
+                    },
+                    {
+                       "offset" : 37,
+                       "value" : "New South Wales"
+                    },
+                    {
+                       "offset" : 54,
+                       "value" : "Australia"
+                    }
+                 ],
+                 "types" : [ "establishment" ]
+              },
+              {
+                 "description" : "Get On Google, Macquarie Street, Sydney, New South Wales, Australia",
+                 "id" : "42224ed8c9da910b16d7c028543134e033c3d987",
+                 "matched_substrings" : [
+                    {
+                       "length" : 13,
+                       "offset" : 0
+                    },
+                    {
+                       "length" : 6,
+                       "offset" : 33
+                    }
+                 ],
+                 "reference" : "CmRRAAAAO-P4B9dxDX9AD7tsOU1js2yfEHcGOo2WlX4RVZpZAhFRN7-hGkV7lAWn_HuZYoc6Te9D-wiq2icZsHnOwt_cNEuZ7NJCEMtbdtxydrn9HAFrX0wjiDdFgTsU6GO2EvkXEhBr41DrSpYZtQA5Vz0RUcjuGhR3aXf4yRfzdMY3dQ-RBhGcxEA-Ng",
+                 "terms" : [
+                    {
+                       "offset" : 0,
+                       "value" : "Get On Google"
+                    },
+                    {
+                       "offset" : 15,
+                       "value" : "Macquarie Street"
+                    },
+                    {
+                       "offset" : 33,
+                       "value" : "Sydney"
+                    },
+                    {
+                       "offset" : 41,
+                       "value" : "New South Wales"
+                    },
+                    {
+                       "offset" : 58,
+                       "value" : "Australia"
+                    }
+                 ],
+                 "types" : [ "establishment" ]
+              },
+              {
+                 "description" : "Google Advertising, Macquarie Street, Sydney, New South Wales, Australia",
+                 "id" : "5623d36f6db1e4bfe015033c13c0168f6429ce61",
+                 "matched_substrings" : [
+                    {
+                       "length" : 6,
+                       "offset" : 0
+                    },
+                    {
+                       "length" : 6,
+                       "offset" : 38
+                    }
+                 ],
+                 "reference" : "CmRXAAAAhoRne94gd6P9v0JWldr7Sxsw2uBLNS1YTOtiF33hOr734HKBSuCGRklVOFg4HeQ9UbiPgVM9V1u-8FhrYbmtsLE8zJoHeXAe2Pb3UBTvhb_J8duZacbsASDeIHQfraUuEhB3P4366USEo7r5hEYhTBFBGhRk0gkVjuHtvmXUKtjcTVrMeAiqkQ",
+                 "terms" : [
+                    {
+                       "offset" : 0,
+                       "value" : "Google Advertising"
+                    },
+                    {
+                       "offset" : 20,
+                       "value" : "Macquarie Street"
+                    },
+                    {
+                       "offset" : 38,
+                       "value" : "Sydney"
+                    },
+                    {
+                       "offset" : 46,
+                       "value" : "New South Wales"
+                    },
+                    {
+                       "offset" : 63,
+                       "value" : "Australia"
+                    }
+                 ],
+                 "types" : [ "establishment" ]
+              },
+              {
+                 "description" : "Up On Google, Rickard Street, Sydney, New South Wales, Australia",
+                 "id" : "897512576d7aad77cc1e60df218870a7eaa96a7b",
+                 "matched_substrings" : [
+                    {
+                       "length" : 12,
+                       "offset" : 0
+                    },
+                    {
+                       "length" : 6,
+                       "offset" : 30
+                    }
+                 ],
+                 "reference" : "ClRPAAAABLRn4XJpmYUzPF1-iwC8v9unvfde7Gh0d0PM3jIKNNlW6l4DaeGZ3lJlJQUuOoadDe_w-7quMIBysSLPyQW6BiG54wFQQByTQd2HLIsucLsSEJh3YjTnUIfpaLmhF4iY43saFNKRXCDwxz4pcuRfU2old0byQvtt",
+                 "terms" : [
+                    {
+                       "offset" : 0,
+                       "value" : "Up On Google"
+                    },
+                    {
+                       "offset" : 14,
+                       "value" : "Rickard Street"
+                    },
+                    {
+                       "offset" : 30,
+                       "value" : "Sydney"
+                    },
+                    {
+                       "offset" : 38,
+                       "value" : "New South Wales"
+                    },
+                    {
+                       "offset" : 55,
+                       "value" : "Australia"
+                    }
+                 ],
+                 "types" : [ "establishment" ]
+              }
+           ],
+           "status" : "OK"
+        }
+    http_version:
+  recorded_at: Wed, 25 Sep 2013 13:22:27 GMT
+recorded_with: VCR 2.5.0

@@ -1,0 +1,63 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://maps.googleapis.com/maps/api/place/fuubar/json?key=<API_KEY>&sensor=false
+    body:
+      encoding: UTF-8
+      string: '{"test":"toto"}'
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Date:
+      - Thu, 26 Sep 2013 11:47:29 GMT
+      Content-Type:
+      - text/html; charset=UTF-8
+      Server:
+      - mafe
+      Content-Length:
+      - '1018'
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - SAMEORIGIN
+      Alternate-Protocol:
+      - 443:quic
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        PCFET0NUWVBFIGh0bWw+CjxodG1sIGxhbmc9ZW4+CiAgPG1ldGEgY2hhcnNl
+        dD11dGYtOD4KICA8bWV0YSBuYW1lPXZpZXdwb3J0IGNvbnRlbnQ9ImluaXRp
+        YWwtc2NhbGU9MSwgbWluaW11bS1zY2FsZT0xLCB3aWR0aD1kZXZpY2Utd2lk
+        dGgiPgogIDx0aXRsZT5FcnJvciA0MDQgKE5vdCBGb3VuZCkhITE8L3RpdGxl
+        PgogIDxzdHlsZT4KICAgICp7bWFyZ2luOjA7cGFkZGluZzowfWh0bWwsY29k
+        ZXtmb250OjE1cHgvMjJweCBhcmlhbCxzYW5zLXNlcmlmfWh0bWx7YmFja2dy
+        b3VuZDojZmZmO2NvbG9yOiMyMjI7cGFkZGluZzoxNXB4fWJvZHl7bWFyZ2lu
+        OjclIGF1dG8gMDttYXgtd2lkdGg6MzkwcHg7bWluLWhlaWdodDoxODBweDtw
+        YWRkaW5nOjMwcHggMCAxNXB4fSogPiBib2R5e2JhY2tncm91bmQ6dXJsKC8v
+        d3d3Lmdvb2dsZS5jb20vaW1hZ2VzL2Vycm9ycy9yb2JvdC5wbmcpIDEwMCUg
+        NXB4IG5vLXJlcGVhdDtwYWRkaW5nLXJpZ2h0OjIwNXB4fXB7bWFyZ2luOjEx
+        cHggMCAyMnB4O292ZXJmbG93OmhpZGRlbn1pbnN7Y29sb3I6Izc3Nzt0ZXh0
+        LWRlY29yYXRpb246bm9uZX1hIGltZ3tib3JkZXI6MH1AbWVkaWEgc2NyZWVu
+        IGFuZCAobWF4LXdpZHRoOjc3MnB4KXtib2R5e2JhY2tncm91bmQ6bm9uZTtt
+        YXJnaW4tdG9wOjA7bWF4LXdpZHRoOm5vbmU7cGFkZGluZy1yaWdodDowfX0K
+        ICA8L3N0eWxlPgogIDxhIGhyZWY9Ly93d3cuZ29vZ2xlLmNvbS8+PGltZyBz
+        cmM9Ly93d3cuZ29vZ2xlLmNvbS9pbWFnZXMvZXJyb3JzL2xvZ29fc20uZ2lm
+        IGFsdD1Hb29nbGU+PC9hPgogIDxwPjxiPjQwNC48L2I+IDxpbnM+VGhhdOKA
+        mXMgYW4gZXJyb3IuPC9pbnM+CiAgPHA+VGhlIHJlcXVlc3RlZCBVUkwgPGNv
+        ZGU+L21hcHMvYXBpL3BsYWNlL2Z1dWJhci9qc29uP2tleT1BSXphU3lBaXh4
+        UFUyczdmbVJNNFdfUHVzbWE1MzdWWHdrWVRaYnMmYW1wO3NlbnNvcj1mYWxz
+        ZTwvY29kZT4gd2FzIG5vdCBmb3VuZCBvbiB0aGlzIHNlcnZlci4gIDxpbnM+
+        VGhhdOKAmXMgYWxsIHdlIGtub3cuPC9pbnM+Cg==
+    http_version:
+  recorded_at: Thu, 26 Sep 2013 11:47:29 GMT
+recorded_with: VCR 2.5.0
