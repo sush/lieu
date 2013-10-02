@@ -23,4 +23,9 @@ Gem::Specification.new do |gem|
   gem.test_files = Dir.glob('spec/**/*')
 
   gem.add_development_dependency 'bundler', '~> 1.0'
+  gem.add_dependency 'faraday', '~> 0.8.8'
+  gem.add_dependency 'faraday_middleware', '~> 0.9.0'
+  gem.add_dependency 'hashie', '~>2.0.5'
+  gem.add_dependency 'json', '~>1.8.0'
+  gem.add_dependency 'multi_json', '~>1.8.0'
 end
